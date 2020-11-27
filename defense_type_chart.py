@@ -1,5 +1,5 @@
-def def_type_calc(Pokemon):
-    # This function takes in a pokemon name, gets the typing from the database
+def def_type_calc(type1, type2):
+    # This function takes in the pokemon's types, gets the typing from the database
     # and then calculates the type resistances and weakness inside and passes
     # back a list of the defensive typing information
 
@@ -24,9 +24,6 @@ def def_type_calc(Pokemon):
 
     # First you get the pokemon types from the database
     # for example:
-
-    type1 = "fire"
-    type2 = "steel"
 
     typechart = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 

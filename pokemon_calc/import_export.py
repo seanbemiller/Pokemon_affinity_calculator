@@ -23,5 +23,81 @@ def exporter():
 
     print(exportedString)
 
-def importer(PokemonTeam):
-    pass
+def importer(Pokemon):
+    # fills out all of the info that is left blank after being given a string formatted as:
+    # Rockruff @ Choice Band
+    # Ability: Own Tempo
+    # Sassy Nature
+    # - Earth Power
+    # - Facade
+    # - Endeavor
+    # - Crunch
+
+    info = Pokemon.split('\n')
+    name = ""
+    item = ""
+    ability = ""
+    nature = ""
+    move1 = ""
+    move2 = ""
+    move3 = ""
+    move4 = ""
+
+    for i in info[0]:
+        if i == " ":
+            break
+        else:
+            name += i
+    state = 0
+    for i in info[0]:
+        if state == 1:
+            item+=i
+        if i =='@':
+            state = 1
+    item = item[1:len(item)]
+    state = 0
+    for i in info[1]:
+        if state == 1:
+            ability += i
+        if i == ':':
+            state = 1
+    ability = ability[1:len(ability)]
+
+    for i in info[2]:
+        if i == ' ':
+            break
+        else:
+            nature += i
+
+    for i in info[3][2:len(info[3])]:
+        move1 += i
+    for i in info[4][2:len(info[4])]:
+        move2 += i
+    for i in info[5][2:len(info[5])]:
+        move3 += i
+    for i in info[6][2:len(info[6])]:
+        move4 += i
+
+    # print(name + " " + item + " " + nature + " " + ability + " "
+    #       + move1 + " " + move2 + " " + move3 + " " + move4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+importer("Bulbasaur @ life orb\n"
+"Ability: overgrowth\n"  
+"jolly Nature\n"  
+"- Fire Punch\n"  
+"- Thunder Punch\n"  
+"- Ice Punch\n" 
+"- Earthquake")
