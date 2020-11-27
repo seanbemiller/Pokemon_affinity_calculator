@@ -2,7 +2,7 @@ def def_type_calc(Pokemon):
     # This function takes in a pokemon name, gets the typing from the database
     # and then calculates the type resistances and weakness inside and passes
     # back a list of the defensive typing information
-    
+
     normal = 0
     fighting = 1
     flying = 2
