@@ -2,6 +2,9 @@ import defense_type_chart
 import random
 
 def buildTeam():
+    #TODO: Update to take in a pokemon when we have Django up
+    # As well as update what we return
+
     # We are assuming that they only have one pokemon they
     # are building off of
     # first we get the pokemon that is in the first slot
@@ -188,13 +191,10 @@ def buildTeam():
                     currentBestLocation = j
                     currentBestWeaknesses = sampleWeakness
 
-        print(currentBestPokemon)
         for i in range(0,17):
             weaknesses[i] += currentBestWeaknesses[i]
         pokemon = samplePokemon[currentBestLocation][0]
         currentTeam.append(pokemon)
-        print(weaknesses)
-
     print(currentTeam)
 buildTeam()
 
