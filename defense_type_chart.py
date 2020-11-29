@@ -45,8 +45,9 @@ def def_type_calc(type1, type2):
         typechart[ice] -= 1
 
         typechart[fighting] += 1
-        typechart[ground] += 2
+        typechart[ground] += 1
         typechart[grass] += 1
+        typechart[bug] += 1
 
     if type1 == "poison":
         typechart[psychic] -= 1
@@ -193,8 +194,9 @@ def def_type_calc(type1, type2):
         typechart[dragon] += 1
         typechart[bug] += 1
         typechart[fighting] += 1
+        typechart[dark] += 1
 
-    if type2 != None:
+    if type2 is None and type2 != "":
         if type2 == "normal":
             typechart[fighting] -= 1
 
@@ -213,7 +215,7 @@ def def_type_calc(type1, type2):
             typechart[ice] -= 1
 
             typechart[fighting] += 1
-            typechart[ground] += 2
+            typechart[ground] += 1
             typechart[grass] += 1
 
         if type2 == "poison":
@@ -361,6 +363,6 @@ def def_type_calc(type1, type2):
             typechart[dragon] += 1
             typechart[bug] += 1
             typechart[fighting] += 1
+            typechart[dark] += 1
 
     return typechart
-

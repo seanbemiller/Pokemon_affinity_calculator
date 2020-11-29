@@ -1,8 +1,8 @@
 def off_type_calc(type):
     # This function takes in the move's type
-    # and then calculates the type resistances and weakness inside and passes
+    # and then calculates the type's strengths inside and passes
     # back a list of the offensive typing information
-    # This had to be another functions as defensive and offensive resistances differ
+    # This had to be another functions as defensive and offensive strengths differ
 
     normal = 0
     fighting = 1

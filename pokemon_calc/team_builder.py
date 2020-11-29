@@ -1,4 +1,6 @@
 import defense_type_chart
+import random
+
 def buildTeam():
     # We are assuming that they only have one pokemon they
     # are building off of
@@ -26,12 +28,131 @@ def buildTeam():
     dark = 16
     fairy = 17
 
-    type1 = "grass"
-    type2 = "poison"
+    # The following are the possible pokemon sets formatted to find the best
+    # defensive pairs
+    # format is Pokemon, type1, type2, pokemon moveset data
+
+    samplePokemon = [
+        ["Blaziken", "fire", "fighting", "Blaziken @ Life Orb\nAbility: Speed Boost\n"
+         "Jolly Nature\n- Swords Dance\n- Flare Blitz\n- Close Combat\n- Thunder Punch" ],
+
+        ["Blissey", "normal", "", "Blissey @ Heavy-Duty Boots\nAbility: Natural Cure\n"
+         "Bold Nature\n- Teleport\n- Seismic Toss\n- Soft-Boiled\n- Thunder Wave"],
+
+        ["Buzzwole", "fighting", "bug", "Buzzwole @ Heavy-Duty Boots\nAbility: Beast Boost\n"
+         "Impish Nature\n- Drain Punch\n- Ice Punch\n- Roost\n- Bulk Up"],
+
+        ["Cinderace", "fire", "", "Cinderace @ Heavy-Duty Boots\nAbility: Libero\n"
+         "Jolly Nature\n- Pyro Ball\n- U-turn\n- High Jump Kick\n- Zen Headbutt"],
+
+        ["Clefable", "fairy", "", "Clefable @ Leftovers\nAbility: Magic Guard\n"
+         "Bold Nature\n- Moonblast\n- Soft-Boiled\n- Stealth Rock\n- Knock Off"],
+
+        ["Corviknight", "steel", "flying", "Corviknight @ Leftovers\n# Ability: Pressure\n"
+         "Careful Nature\n- Defog\n- Roost\n- U-turn\n- Brave Bird"],
+
+        ["Dragapult", "dragon", "ghost", "Dragapult @ Choice Specs\nAbility: Infiltrator\n"
+         "Modest Nature\n- Shadow Ball\n- Draco Meteor\n- Flamethrower\n- Hex"],
+
+        ["Dragonite", "dragon", "flying", "Dragonite @ Heavy-Duty Boots\nAbility: Multiscale\n"
+         "Jolly Nature\n- Dragon Dance\n- Dual Wingbeat\n- Earthquake\n- Extreme Speed"],
+
+        ["Excadrill", "ground", "steel", "Excadrill @ Leftovers\nAbility: Mold Breaker\n"
+         "Jolly Nature\n- Earthquake\n- Iron Head\n- Toxic\n- Stealth Rock"],
+
+        ["Ferrothorn", "grass", "steel", "Ferrothorn @ Leftovers\nAbility: Iron Barbs\n"
+         "Impish Nature\n- Spikes\n- Knock Off\n- Body Press\n- Leech Seed" ],
+
+        ["Garchomp", "ground", "dragon", "Garchomp @ Life Orb\nAbility: Rough Skin\n"
+         "Jolly Nature\n- Stealth Rock\n- Earthquake\n- Swords Dance\n- Stone Edge"],
+
+        ["Heatran", "fire", "steel", "Heatran @ Leftovers\nAbility: Flash Fire\n"
+         "Calm Nature\n- Magma Storm\n- Earth Power\n- Taunt\n- Stealth Rock"],
+
+        ["Kartana", "grass", "steel", "Kartana @ Choice Scarf\nAbility: Beast Boost\n"
+         "Jolly Nature\n- Leaf Blade\n- Smart Strike\n- Sacred Sword\n- Knock Off"],
+
+        ["Landorus-Therian", "ground", "flying", "Landorus-Therian @ Choice Scarf\nAbility: Intimidate\n"
+         "Jolly Nature\n- Earthquake\n- U-turn\n- Stone Edge\n- Defog"],
+
+        ["Latios", "psychic", "dragon", "Latios @ Choice Specs\nAbility: Levitate\n"
+         "Timid Nature\n- Draco Meteor\n- Psychic\n- Mystical Fire\n- Trick"],
+
+        ["Magearna", "steel", "fairy", "Magearna @ Weakness Policy\nAbility: Soul-Heart\n"
+         "Timid Nature\n- Shift Gear\n- Calm Mind\n- Draining Kiss\n- Stored Power"],
+
+        ["Mandibuzz", "flying", "dark", "Mandibuzz @ Heavy-Duty Boots\nAbility: Overcoat\n"
+         "Impish Nature\n- Foul Play\n- Roost\n- Defog\n- U-turn"],
+
+        ["Melmetal", "steel", "", "Melmetal @ Choice Band\nAbility: Iron Fist\n"
+         "Adamant Nature\n- Double Iron Bash\n- Earthquake\n- Superpower\n- Thunder Punch"],
+
+        ["Moltres", "fire", "flying", "Moltres @ Heavy-Duty Boots\nAbility: Flame Body\n"
+         "Bold Nature\n- Defog\n- Flamethrower\n- Roost\n- Scorching Sands"],
+
+        ["Nidoking", "poison", "ground", "Nidoking @ Life Orb\nAbility: Sheer Force\n"
+         "Timid Nature\n- Sludge Wave\n- Earth Power\n- Ice Beam\n- Substitute"]
+    ]
+
+    type1 = "water"
+    type2 = "ground"
     weaknesses = defense_type_chart.def_type_calc(type1, type2)
 
+    currentTeam = []
+
+    for i in range(1,6):
+        # i will go find the 5 best pokemon to add to the team
+        currentBest = -9999
+        currentBestPokemon = ""
+        currentBestLocation = 0
+        currentBestWeaknesses = []
 
 
+        for j in range(0,len(samplePokemon)):
+            # j will look through all of the sample pokemon the find the one with the best synergy
+            if samplePokemon[j][0] in currentTeam:
+                continue
+            typea = samplePokemon[j][1]
+            typeb = samplePokemon[j][2]
+            value = 0
+            sampleWeakness = defense_type_chart.def_type_calc(typea, typeb)
+
+            for k in range(0, 17):
+                # k finds the synergy value
+                tempVal = 0
+                tempVal += weaknesses[k] + sampleWeakness[k]
+                if tempVal == 0:
+                    value -= 1
+                if tempVal < 0:
+                    value -= 2
+                if tempVal < -2:
+                    value -= 4
+                if 0 < tempVal <= 1:
+                    value += 1
+                if tempVal > 1:
+                    value += 0
+            if value > currentBest:
+                currentBest = value
+                currentBestPokemon = samplePokemon[j][0]
+                currentBestLocation = j
+                currentBestWeaknesses = sampleWeakness
+
+            if value == currentBest:
+                rand = random.randint(0, 9)
+                if rand > 5:
+                    currentBest = value
+                    currentBestPokemon = samplePokemon[j][0]
+                    currentBestLocation = j
+                    currentBestWeaknesses = sampleWeakness
+
+        print(currentBestPokemon)
+        for i in range(0,17):
+            weaknesses[i] += currentBestWeaknesses[i]
+        pokemon = samplePokemon[currentBestLocation][0]
+        currentTeam.append(pokemon)
+        print(weaknesses)
+
+    print(currentTeam)
 buildTeam()
 
 
