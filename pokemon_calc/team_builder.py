@@ -91,10 +91,53 @@ def buildTeam():
          "Bold Nature\n- Defog\n- Flamethrower\n- Roost\n- Scorching Sands"],
 
         ["Nidoking", "poison", "ground", "Nidoking @ Life Orb\nAbility: Sheer Force\n"
-         "Timid Nature\n- Sludge Wave\n- Earth Power\n- Ice Beam\n- Substitute"]
+         "Timid Nature\n- Sludge Wave\n- Earth Power\n- Ice Beam\n- Substitute"],
+
+        ["Pheromosa", "bug", "fighting", "Pheromosa @ Heavy-Duty Boots\nAbility: Beast Boost\n"
+         "Naive Nature\n- Close Combat\n- U-turn\n- Ice Beam\n- Rapid Spin"],
+
+        ["Regieleki", "electric", "", "Regieleki @ Choice Specs\nAbility: Transistor\n"
+         "Modest Nature\n- Thunderbolt\n- Volt Switch\n- Swift\n- Rapid Spin"],
+
+        ["Rillaboom", "grass", "", "Rillaboom @ Life Orb\nAbility: Grassy Surge\n"
+         "Adamant Nature\n- Swords Dance\n- Grassy Glide\n- Knock Off\n- Drain Punch"],
+
+        ["Slowbro", "water", "psychic", "Slowbro @ Heavy-Duty Boots\nAbility: Regenerator\n"
+         "Relaxed Nature\n- Scald\n- Slack Off\n- Teleport\n- Future Sight"],
+
+        ["Spectrier", "ghost", "", "Spectrier @ Choice Specs\nAbility: Grim Neigh\n"
+         "Timid Nature\n- Shadow Ball\n- Hex\n- Will-O-Wisp\n- Mud Shot"],
+
+        ["Swampert", "water", "ground", "Swampert @ Leftovers\nAbility: Damp\n"
+         "Relaxed Nature\n- Stealth Rock\n- Flip Turn\n- Earthquake\n- Toxic"],
+
+        ["Tapu Fini", "water", "fairy", "Tapu Fini @ Leftovers\nAbility: Misty Surge\n"
+         "Bold Nature\n- Calm Mind\n- Taunt\n- Draining Kiss\n- Surf"],
+
+        ["Tapu Koko", "electric", "fairy", "Tapu Koko @ Heavy-Duty Boots\nAbility: Electric Surge\n"
+         "Timid Nature\n- Thunderbolt\n- Dazzling Gleam\n- U-turn\n- Roost" ],
+
+        ["Tornadus-Therian", "flying", "", "Tornadus-Therian @ Heavy-Duty Boots\nAbility: Regenerator\n"
+         "Timid Nature\n- Hurricane\n- Knock Off\n- U-turn\n- Defog"],
+
+        ["Toxapex", "water", "poison", "Toxapex @ Rocky Helmet\nAbility: Regenerator\n"
+         "Bold Nature\n- Scald\n- Recover\n- Haze\n- Knock Off"],
+
+        ["Tyranitar", "rock", "dark", "Tyranitar @ Leftovers\nAbility: Sand Stream\n"
+         "Careful Nature\n- Rock Blast\n- Stealth Rock\n- Thunder Wave\n- Ice Beam"],
+
+        ["Urshifu", "dark", "fighting", "Urshifu @ Choice Band\nAbility: Unseen Fist\n"
+         "Jolly Nature\n- Wicked Blow\n- Close Combat\n- Iron Head\n- U-turn" ],
+
+        ["Zapdos", "flying", "electric", "Zapdos @ Heavy-Duty Boots\nAbility: Static\n"
+         "Timid Nature\n- Discharge\n- Roost\n- Heat Wave\n- Defog"],
+
+        ["Zapdos-Galar", "flying", "fighting", "Zapdos-Galar @ Choice Band\nAbility: Defiant\n"
+         "Jolly Nature\n- Close Combat\n- Brave Bird\n- U-turn\n- Stomping Tantrum"]
+
     ]
 
-    type1 = "water"
+    type1 = "flying"
     type2 = "ground"
     weaknesses = defense_type_chart.def_type_calc(type1, type2)
 
@@ -414,14 +457,6 @@ buildTeam()
 # - Wicked Blow
 # - Close Combat
 # - Iron Head
-# - U-turn
-#
-# Urshifu-Rapid-Strike @ Choice Band
-# Ability: Unseen Fist
-# Adamant Nature
-# - Surging Strikes
-# - Close Combat
-# - Aqua Jet
 # - U-turn
 #
 # Zapdos @ Heavy-Duty Boots
