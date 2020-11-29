@@ -1,0 +1,860 @@
+name,category,type
+"10,000,000 Volt Thunderbolt",Special,Electric
+Absorb,Special,Grass
+Accelerock,Physical,Rock
+Acid,Special,Poison
+Acid Armor,Status,Poison
+Acid Downpour,Physical,Poison
+Acid Spray,Special,Poison
+Acrobatics,Physical,Flying
+Acupressure,Status,Normal
+Aerial Ace,Physical,Flying
+Aeroblast,Special,Flying
+After You,Status,Normal
+Agility,Status,Psychic
+Air Cutter,Special,Flying
+Air Slash,Special,Flying
+All-Out Pummeling,Physical,Fighting
+Ally Switch,Status,Psychic
+Amnesia,Status,Psychic
+Anchor Shot,Physical,Steel
+Ancient Power,Special,Rock
+Apple Acid,Special,Grass
+Aqua Jet,Physical,Water
+Aqua Ring,Status,Water
+Aqua Tail,Physical,Water
+Arm Thrust,Physical,Fighting
+Aromatherapy,Status,Grass
+Aromatic Mist,Status,Fairy
+Assist,Status,Normal
+Assurance,Physical,Dark
+Astonish,Physical,Ghost
+Astral Barrage,Special,Ghost
+Attack Order,Physical,Bug
+Attract,Status,Normal
+Aura Sphere,Special,Fighting
+Aura Wheel,Physical,Electric
+Aurora Beam,Special,Ice
+Aurora Veil,Status,Ice
+Autotomize,Status,Steel
+Avalanche,Physical,Ice
+Baby-Doll Eyes,Status,Fairy
+Baddy Bad,Special,Dark
+Baneful Bunker,Status,Poison
+Barrage,Physical,Normal
+Barrier,Status,Psychic
+Baton Pass,Status,Normal
+Beak Blast,Physical,Flying
+Beat Up,Physical,Dark
+Behemoth Bash,Physical,Steel
+Behemoth Blade,Physical,Steel
+Belch,Special,Poison
+Belly Drum,Status,Normal
+Bestow,Status,Normal
+Bide,Physical,Normal
+Bind,Physical,Normal
+Bite,Physical,Dark
+Black Hole Eclipse,Physical,Dark
+Blast Burn,Special,Fire
+Blaze Kick,Physical,Fire
+Blizzard,Special,Ice
+Block,Status,Normal
+Bloom Doom,Physical,Grass
+Blue Flare,Special,Fire
+Body Press,Physical,Fighting
+Body Slam,Physical,Normal
+Bolt Beak,Physical,Electric
+Bolt Strike,Physical,Electric
+Bone Club,Physical,Ground
+Bonemerang,Physical,Ground
+Bone Rush,Physical,Ground
+Boomburst,Special,Normal
+Bounce,Physical,Flying
+Bouncy Bubble,Special,Water
+Branch Poke,Physical,Grass
+Brave Bird,Physical,Flying
+Breaking Swipe,Physical,Dragon
+Breakneck Blitz,Physical,Normal
+Brick Break,Physical,Fighting
+Brine,Special,Water
+Brutal Swing,Physical,Dark
+Bubble,Special,Water
+Bubble Beam,Special,Water
+Bug Bite,Physical,Bug
+Bug Buzz,Special,Bug
+Bulk Up,Status,Fighting
+Bulldoze,Physical,Ground
+Bullet Punch,Physical,Steel
+Bullet Seed,Physical,Grass
+Burning Jealousy,Special,Fire
+Burn Up,Special,Fire
+Buzzy Buzz,Special,Electric
+Calm Mind,Status,Psychic
+Camouflage,Status,Normal
+Captivate,Status,Normal
+Catastropika,Physical,Electric
+Celebrate,Status,Normal
+Charge,Status,Electric
+Charge Beam,Special,Electric
+Charm,Status,Fairy
+Chatter,Special,Flying
+Chip Away,Physical,Normal
+Circle Throw,Physical,Fighting
+Clamp,Physical,Water
+Clanging Scales,Special,Dragon
+Clangorous Soul,Status,Dragon
+Clangorous Soulblaze,Special,Dragon
+Clear Smog,Special,Poison
+Close Combat,Physical,Fighting
+Coaching,Status,Fighting
+Coil,Status,Poison
+Comet Punch,Physical,Normal
+Confide,Status,Normal
+Confuse Ray,Status,Ghost
+Confusion,Special,Psychic
+Constrict,Physical,Normal
+Continental Crush,Physical,Rock
+Conversion,Status,Normal
+Conversion 2,Status,Normal
+Copycat,Status,Normal
+Core Enforcer,Special,Dragon
+Corkscrew Crash,Physical,Steel
+Corrosive Gas,Status,Poison
+Cosmic Power,Status,Psychic
+Cotton Guard,Status,Grass
+Cotton Spore,Status,Grass
+Counter,Physical,Fighting
+Court Change,Status,Normal
+Covet,Physical,Normal
+Crabhammer,Physical,Water
+Crafty Shield,Status,Fairy
+Cross Chop,Physical,Fighting
+Cross Poison,Physical,Poison
+Crunch,Physical,Dark
+Crush Claw,Physical,Normal
+Crush Grip,Physical,Normal
+Curse,Status,Ghost
+Cut,Physical,Normal
+Darkest Lariat,Physical,Dark
+Dark Pulse,Special,Dark
+Dark Void,Status,Dark
+Dazzling Gleam,Special,Fairy
+Decorate,Status,Fairy
+Defend Order,Status,Bug
+Defense Curl,Status,Normal
+Defog,Status,Flying
+Destiny Bond,Status,Ghost
+Detect,Status,Fighting
+Devastating Drake,Physical,Dragon
+Diamond Storm,Physical,Rock
+Dig,Physical,Ground
+Disable,Status,Normal
+Disarming Voice,Special,Fairy
+Discharge,Special,Electric
+Dive,Physical,Water
+Dizzy Punch,Physical,Normal
+Doom Desire,Special,Steel
+Double-Edge,Physical,Normal
+Double Hit,Physical,Normal
+Double Iron Bash,Physical,Steel
+Double Kick,Physical,Fighting
+Double Slap,Physical,Normal
+Double Team,Status,Normal
+Draco Meteor,Special,Dragon
+Dragon Ascent,Physical,Flying
+Dragon Breath,Special,Dragon
+Dragon Claw,Physical,Dragon
+Dragon Dance,Status,Dragon
+Dragon Darts,Physical,Dragon
+Dragon Energy,Special,Dragon
+Dragon Hammer,Physical,Dragon
+Dragon Pulse,Special,Dragon
+Dragon Rage,Special,Dragon
+Dragon Rush,Physical,Dragon
+Dragon Tail,Physical,Dragon
+Draining Kiss,Special,Fairy
+Drain Punch,Physical,Fighting
+Dream Eater,Special,Psychic
+Drill Peck,Physical,Flying
+Drill Run,Physical,Ground
+Drum Beating,Physical,Grass
+Dual Chop,Physical,Dragon
+Dual Wingbeat,Physical,Flying
+Dynamax Cannon,Special,Dragon
+Dynamic Punch,Physical,Fighting
+Earth Power,Special,Ground
+Earthquake,Physical,Ground
+Echoed Voice,Special,Normal
+Eerie Impulse,Status,Electric
+Eerie Spell,Special,Psychic
+Egg Bomb,Physical,Normal
+Electric Terrain,Status,Electric
+Electrify,Status,Electric
+Electro Ball,Special,Electric
+Electroweb,Special,Electric
+Embargo,Status,Dark
+Ember,Special,Fire
+Encore,Status,Normal
+Endeavor,Physical,Normal
+Endure,Status,Normal
+Energy Ball,Special,Grass
+Entrainment,Status,Normal
+Eruption,Special,Fire
+Eternabeam,Special,Dragon
+Expanding Force,Special,Psychic
+Explosion,Physical,Normal
+Extrasensory,Special,Psychic
+Extreme Evoboost,Status,Normal
+Extreme Speed,Physical,Normal
+Facade,Physical,Normal
+Fairy Lock,Status,Fairy
+Fairy Wind,Special,Fairy
+Fake Out,Physical,Normal
+Fake Tears,Status,Dark
+False Surrender,Physical,Dark
+False Swipe,Physical,Normal
+Feather Dance,Status,Flying
+Feint,Physical,Normal
+Feint Attack,Physical,Dark
+Fell Stinger,Physical,Bug
+Fiery Dance,Special,Fire
+Fiery Wrath,Special,Dark
+Final Gambit,Special,Fighting
+Fire Blast,Special,Fire
+Fire Fang,Physical,Fire
+Fire Lash,Physical,Fire
+Fire Pledge,Special,Fire
+Fire Punch,Physical,Fire
+Fire Spin,Special,Fire
+First Impression,Physical,Bug
+Fishious Rend,Physical,Water
+Fissure,Physical,Ground
+Flail,Physical,Normal
+Flame Burst,Special,Fire
+Flame Charge,Physical,Fire
+Flame Wheel,Physical,Fire
+Flamethrower,Special,Fire
+Flare Blitz,Physical,Fire
+Flash,Status,Normal
+Flash Cannon,Special,Steel
+Flatter,Status,Dark
+Fleur Cannon,Special,Fairy
+Fling,Physical,Dark
+Flip Turn,Physical,Water
+Floaty Fall,Physical,Flying
+Floral Healing,Status,Fairy
+Flower Shield,Status,Fairy
+Fly,Physical,Flying
+Flying Press,Physical,Fighting
+Focus Blast,Special,Fighting
+Focus Energy,Status,Normal
+Focus Punch,Physical,Fighting
+Follow Me,Status,Normal
+Force Palm,Physical,Fighting
+Foresight,Status,Normal
+Forest's Curse,Status,Grass
+Foul Play,Physical,Dark
+Freeze-Dry,Special,Ice
+Freeze Shock,Physical,Ice
+Freezing Glare,Special,Psychic
+Freezy Frost,Special,Ice
+Frenzy Plant,Special,Grass
+Frost Breath,Special,Ice
+Frustration,Physical,Normal
+Fury Attack,Physical,Normal
+Fury Cutter,Physical,Bug
+Fury Swipes,Physical,Normal
+Fusion Bolt,Physical,Electric
+Fusion Flare,Special,Fire
+Future Sight,Special,Psychic
+Gastro Acid,Status,Poison
+Gear Grind,Physical,Steel
+Gear Up,Status,Steel
+Genesis Supernova,Special,Psychic
+Geomancy,Status,Fairy
+Giga Drain,Special,Grass
+Giga Impact,Physical,Normal
+Gigavolt Havoc,Physical,Electric
+Glacial Lance,Physical,Ice
+Glaciate,Special,Ice
+Glare,Status,Normal
+Glitzy Glow,Special,Psychic
+G-Max Befuddle,Physical,Bug
+G-Max Cannonade,Physical,Water
+G-Max Centiferno,Physical,Fire
+G-Max Chi Strike,Physical,Fighting
+G-Max Cuddle,Physical,Normal
+G-Max Depletion,Physical,Dragon
+G-Max Drum Solo,Physical,Grass
+G-Max Finale,Physical,Fairy
+G-Max Fireball,Physical,Fire
+G-Max Foam Burst,Physical,Water
+G-Max Gold Rush,Physical,Normal
+G-Max Gravitas,Physical,Psychic
+G-Max Hydrosnipe,Physical,Water
+G-Max Malodor,Physical,Poison
+G-Max Meltdown,Physical,Steel
+G-Max One Blow,Physical,Dark
+G-Max Rapid Flow,Physical,Water
+G-Max Replenish,Physical,Normal
+G-Max Resonance,Physical,Ice
+G-Max Sandblast,Physical,Ground
+G-Max Smite,Physical,Fairy
+G-Max Snooze,Physical,Dark
+G-Max Steelsurge,Physical,Steel
+G-Max Stonesurge,Physical,Water
+G-Max Stun Shock,Physical,Electric
+G-Max Sweetness,Physical,Grass
+G-Max Tartness,Physical,Grass
+G-Max Terror,Physical,Ghost
+G-Max Vine Lash,Physical,Grass
+G-Max Volcalith,Physical,Rock
+G-Max Volt Crash,Physical,Electric
+G-Max Wildfire,Physical,Fire
+G-Max Wind Rage,Physical,Flying
+Grass Knot,Special,Grass
+Grass Pledge,Special,Grass
+Grass Whistle,Status,Grass
+Grassy Glide,Physical,Grass
+Grassy Terrain,Status,Grass
+Grav Apple,Physical,Grass
+Gravity,Status,Psychic
+Growl,Status,Normal
+Growth,Status,Normal
+Grudge,Status,Ghost
+Guardian of Alola,Special,Fairy
+Guard Split,Status,Psychic
+Guard Swap,Status,Psychic
+Guillotine,Physical,Normal
+Gunk Shot,Physical,Poison
+Gust,Special,Flying
+Gyro Ball,Physical,Steel
+Hail,Status,Ice
+Hammer Arm,Physical,Fighting
+Happy Hour,Status,Normal
+Harden,Status,Normal
+Haze,Status,Ice
+Headbutt,Physical,Normal
+Head Charge,Physical,Normal
+Head Smash,Physical,Rock
+Heal Bell,Status,Normal
+Heal Block,Status,Psychic
+Healing Wish,Status,Psychic
+Heal Order,Status,Bug
+Heal Pulse,Status,Psychic
+Heart Stamp,Physical,Psychic
+Heart Swap,Status,Psychic
+Heat Crash,Physical,Fire
+Heat Wave,Special,Fire
+Heavy Slam,Physical,Steel
+Helping Hand,Status,Normal
+Hex,Special,Ghost
+Hidden Power,Special,Normal
+Hidden Power Bug,Special,Bug
+Hidden Power Dark,Special,Dark
+Hidden Power Dragon,Special,Dragon
+Hidden Power Electric,Special,Electric
+Hidden Power Fighting,Special,Fighting
+Hidden Power Fire,Special,Fire
+Hidden Power Flying,Special,Flying
+Hidden Power Ghost,Special,Ghost
+Hidden Power Grass,Special,Grass
+Hidden Power Ground,Special,Ground
+Hidden Power Ice,Special,Ice
+Hidden Power Poison,Special,Poison
+Hidden Power Psychic,Special,Psychic
+Hidden Power Rock,Special,Rock
+Hidden Power Steel,Special,Steel
+Hidden Power Water,Special,Water
+High Horsepower,Physical,Ground
+High Jump Kick,Physical,Fighting
+Hold Back,Physical,Normal
+Hold Hands,Status,Normal
+Hone Claws,Status,Dark
+Horn Attack,Physical,Normal
+Horn Drill,Physical,Normal
+Horn Leech,Physical,Grass
+Howl,Status,Normal
+Hurricane,Special,Flying
+Hydro Cannon,Special,Water
+Hydro Pump,Special,Water
+Hydro Vortex,Physical,Water
+Hyper Beam,Special,Normal
+Hyper Fang,Physical,Normal
+Hyperspace Fury,Physical,Dark
+Hyperspace Hole,Special,Psychic
+Hyper Voice,Special,Normal
+Hypnosis,Status,Psychic
+Ice Ball,Physical,Ice
+Ice Beam,Special,Ice
+Ice Burn,Special,Ice
+Ice Fang,Physical,Ice
+Ice Hammer,Physical,Ice
+Ice Punch,Physical,Ice
+Ice Shard,Physical,Ice
+Icicle Crash,Physical,Ice
+Icicle Spear,Physical,Ice
+Icy Wind,Special,Ice
+Imprison,Status,Psychic
+Incinerate,Special,Fire
+Inferno,Special,Fire
+Inferno Overdrive,Physical,Fire
+Infestation,Special,Bug
+Ingrain,Status,Grass
+Instruct,Status,Psychic
+Ion Deluge,Status,Electric
+Iron Defense,Status,Steel
+Iron Head,Physical,Steel
+Iron Tail,Physical,Steel
+Jaw Lock,Physical,Dark
+Judgment,Special,Normal
+Jump Kick,Physical,Fighting
+Jungle Healing,Status,Grass
+Karate Chop,Physical,Fighting
+Kinesis,Status,Psychic
+King's Shield,Status,Steel
+Knock Off,Physical,Dark
+Land's Wrath,Physical,Ground
+Laser Focus,Status,Normal
+Lash Out,Physical,Dark
+Last Resort,Physical,Normal
+Lava Plume,Special,Fire
+Leafage,Physical,Grass
+Leaf Blade,Physical,Grass
+Leaf Storm,Special,Grass
+Leaf Tornado,Special,Grass
+Leech Life,Physical,Bug
+Leech Seed,Status,Grass
+Leer,Status,Normal
+Let's Snuggle Forever,Physical,Fairy
+Lick,Physical,Ghost
+Life Dew,Status,Water
+Light of Ruin,Special,Fairy
+Light Screen,Status,Psychic
+Light That Burns the Sky,Special,Psychic
+Liquidation,Physical,Water
+Lock-On,Status,Normal
+Lovely Kiss,Status,Normal
+Low Kick,Physical,Fighting
+Low Sweep,Physical,Fighting
+Lucky Chant,Status,Normal
+Lunar Dance,Status,Psychic
+Lunge,Physical,Bug
+Luster Purge,Special,Psychic
+Mach Punch,Physical,Fighting
+Magical Leaf,Special,Grass
+Magic Coat,Status,Psychic
+Magic Powder,Status,Psychic
+Magic Room,Status,Psychic
+Magma Storm,Special,Fire
+Magnet Bomb,Physical,Steel
+Magnetic Flux,Status,Electric
+Magnet Rise,Status,Electric
+Magnitude,Physical,Ground
+Malicious Moonsault,Physical,Dark
+Mat Block,Status,Fighting
+Max Airstream,Physical,Flying
+Max Darkness,Physical,Dark
+Max Flare,Physical,Fire
+Max Flutterby,Physical,Bug
+Max Geyser,Physical,Water
+Max Guard,Status,Normal
+Max Hailstorm,Physical,Ice
+Max Knuckle,Physical,Fighting
+Max Lightning,Physical,Electric
+Max Mindstorm,Physical,Psychic
+Max Ooze,Physical,Poison
+Max Overgrowth,Physical,Grass
+Max Phantasm,Physical,Ghost
+Max Quake,Physical,Ground
+Max Rockfall,Physical,Rock
+Max Starfall,Physical,Fairy
+Max Steelspike,Physical,Steel
+Max Strike,Physical,Normal
+Max Wyrmwind,Physical,Dragon
+Mean Look,Status,Normal
+Meditate,Status,Psychic
+Me First,Status,Normal
+Mega Drain,Special,Grass
+Megahorn,Physical,Bug
+Mega Kick,Physical,Normal
+Mega Punch,Physical,Normal
+Memento,Status,Dark
+Menacing Moonraze Maelstrom,Special,Ghost
+Metal Burst,Physical,Steel
+Metal Claw,Physical,Steel
+Metal Sound,Status,Steel
+Meteor Assault,Physical,Fighting
+Meteor Beam,Special,Rock
+Meteor Mash,Physical,Steel
+Metronome,Status,Normal
+Milk Drink,Status,Normal
+Mimic,Status,Normal
+Mind Blown,Special,Fire
+Mind Reader,Status,Normal
+Minimize,Status,Normal
+Miracle Eye,Status,Psychic
+Mirror Coat,Special,Psychic
+Mirror Move,Status,Flying
+Mirror Shot,Special,Steel
+Mist,Status,Ice
+Mist Ball,Special,Psychic
+Misty Explosion,Special,Fairy
+Misty Terrain,Status,Fairy
+Moonblast,Special,Fairy
+Moongeist Beam,Special,Ghost
+Moonlight,Status,Fairy
+Morning Sun,Status,Normal
+Mud Bomb,Special,Ground
+Mud Shot,Special,Ground
+Mud-Slap,Special,Ground
+Mud Sport,Status,Ground
+Muddy Water,Special,Water
+Multi-Attack,Physical,Normal
+Mystical Fire,Special,Fire
+Nasty Plot,Status,Dark
+Natural Gift,Physical,Normal
+Nature Power,Status,Normal
+Nature's Madness,Special,Fairy
+Needle Arm,Physical,Grass
+Never-Ending Nightmare,Physical,Ghost
+Night Daze,Special,Dark
+Nightmare,Status,Ghost
+Night Shade,Special,Ghost
+Night Slash,Physical,Dark
+Noble Roar,Status,Normal
+No Retreat,Status,Fighting
+Nuzzle,Physical,Electric
+Oblivion Wing,Special,Flying
+Obstruct,Status,Dark
+Oceanic Operetta,Special,Water
+Octazooka,Special,Water
+Octolock,Status,Fighting
+Odor Sleuth,Status,Normal
+Ominous Wind,Special,Ghost
+Origin Pulse,Special,Water
+Outrage,Physical,Dragon
+Overdrive,Special,Electric
+Overheat,Special,Fire
+Pain Split,Status,Normal
+Paleo Wave,Special,Rock
+Parabolic Charge,Special,Electric
+Parting Shot,Status,Dark
+Payback,Physical,Dark
+Pay Day,Physical,Normal
+Peck,Physical,Flying
+Perish Song,Status,Normal
+Petal Blizzard,Physical,Grass
+Petal Dance,Special,Grass
+Phantom Force,Physical,Ghost
+Photon Geyser,Special,Psychic
+Pika Papow,Special,Electric
+Pin Missile,Physical,Bug
+Plasma Fists,Physical,Electric
+Play Nice,Status,Normal
+Play Rough,Physical,Fairy
+Pluck,Physical,Flying
+Poison Fang,Physical,Poison
+Poison Gas,Status,Poison
+Poison Jab,Physical,Poison
+Poison Powder,Status,Poison
+Poison Sting,Physical,Poison
+Poison Tail,Physical,Poison
+Pollen Puff,Special,Bug
+Poltergeist,Physical,Ghost
+Pound,Physical,Normal
+Powder,Status,Bug
+Powder Snow,Special,Ice
+Power Gem,Special,Rock
+Power Split,Status,Psychic
+Power Swap,Status,Psychic
+Power Trick,Status,Psychic
+Power Trip,Physical,Dark
+Power-Up Punch,Physical,Fighting
+Power Whip,Physical,Grass
+Precipice Blades,Physical,Ground
+Present,Physical,Normal
+Prismatic Laser,Special,Psychic
+Protect,Status,Normal
+Psybeam,Special,Psychic
+Psych Up,Status,Normal
+Psychic,Special,Psychic
+Psychic Fangs,Physical,Psychic
+Psychic Terrain,Status,Psychic
+Psycho Boost,Special,Psychic
+Psycho Cut,Physical,Psychic
+Psycho Shift,Status,Psychic
+Psyshock,Special,Psychic
+Psystrike,Special,Psychic
+Psywave,Special,Psychic
+Pulverizing Pancake,Physical,Normal
+Punishment,Physical,Dark
+Purify,Status,Poison
+Pursuit,Physical,Dark
+Pyro Ball,Physical,Fire
+Quash,Status,Dark
+Quick Attack,Physical,Normal
+Quick Guard,Status,Fighting
+Quiver Dance,Status,Bug
+Rage,Physical,Normal
+Rage Powder,Status,Bug
+Rain Dance,Status,Water
+Rapid Spin,Physical,Normal
+Razor Leaf,Physical,Grass
+Razor Shell,Physical,Water
+Razor Wind,Special,Normal
+Recover,Status,Normal
+Recycle,Status,Normal
+Reflect,Status,Psychic
+Reflect ,Status,Normal
+Refresh,Status,Normal
+Relic Song,Special,Normal
+Rest,Status,Psychic
+Retaliate,Physical,Normal
+Return,Physical,Normal
+Revelation Dance,Special,Normal
+Revenge,Physical,Fighting
+Reversal,Physical,Fighting
+Rising Voltage,Special,Electric
+Roar,Status,Normal
+Roar of Time,Special,Dragon
+Rock Blast,Physical,Rock
+Rock Climb,Physical,Normal
+Rock Polish,Status,Rock
+Rock Slide,Physical,Rock
+Rock Smash,Physical,Fighting
+Rock Throw,Physical,Rock
+Rock Tomb,Physical,Rock
+Rock Wrecker,Physical,Rock
+Role Play,Status,Psychic
+Rolling Kick,Physical,Fighting
+Rollout,Physical,Rock
+Roost,Status,Flying
+Rototiller,Status,Ground
+Round,Special,Normal
+Sacred Fire,Physical,Fire
+Sacred Sword,Physical,Fighting
+Safeguard,Status,Normal
+Sand Attack,Status,Ground
+Sandstorm,Status,Rock
+Sand Tomb,Physical,Ground
+Sappy Seed,Physical,Grass
+Savage Spin-Out,Physical,Bug
+Scald,Special,Water
+Scale Shot,Physical,Dragon
+Scary Face,Status,Normal
+Scorching Sands,Special,Ground
+Scratch,Physical,Normal
+Screech,Status,Normal
+Searing Shot,Special,Fire
+Searing Sunraze Smash,Physical,Steel
+Secret Power,Physical,Normal
+Secret Sword,Special,Fighting
+Seed Bomb,Physical,Grass
+Seed Flare,Special,Grass
+Seismic Toss,Physical,Fighting
+Self-Destruct,Physical,Normal
+Shadow Ball,Special,Ghost
+Shadow Bone,Physical,Ghost
+Shadow Claw,Physical,Ghost
+Shadow Force,Physical,Ghost
+Shadow Punch,Physical,Ghost
+Shadow Sneak,Physical,Ghost
+Shadow Strike,Physical,Ghost
+Sharpen,Status,Normal
+Shattered Psyche,Physical,Psychic
+Sheer Cold,Special,Ice
+Shell Side Arm,Special,Poison
+Shell Smash,Status,Normal
+Shell Trap,Special,Fire
+Shift Gear,Status,Steel
+Shock Wave,Special,Electric
+Shore Up,Status,Ground
+Signal Beam,Special,Bug
+Silver Wind,Special,Bug
+Simple Beam,Status,Normal
+Sing,Status,Normal
+Sinister Arrow Raid,Physical,Ghost
+Sizzly Slide,Physical,Fire
+Sketch,Status,Normal
+Skill Swap,Status,Psychic
+Skitter Smack,Physical,Bug
+Skull Bash,Physical,Normal
+Sky Attack,Physical,Flying
+Sky Drop,Physical,Flying
+Sky Uppercut,Physical,Fighting
+Slack Off,Status,Normal
+Slam,Physical,Normal
+Slash,Physical,Normal
+Sleep Powder,Status,Grass
+Sleep Talk,Status,Normal
+Sludge,Special,Poison
+Sludge Bomb,Special,Poison
+Sludge Wave,Special,Poison
+Smack Down,Physical,Rock
+Smart Strike,Physical,Steel
+Smelling Salts,Physical,Normal
+Smog,Special,Poison
+Smokescreen,Status,Normal
+Snap Trap,Physical,Grass
+Snarl,Special,Dark
+Snatch,Status,Dark
+Snipe Shot,Special,Water
+Snore,Special,Normal
+Soak,Status,Water
+Soft-Boiled,Status,Normal
+Solar Beam,Special,Grass
+Solar Blade,Physical,Grass
+Sonic Boom,Special,Normal
+Soul-Stealing 7-Star Strike,Physical,Ghost
+Spacial Rend,Special,Dragon
+Spark,Physical,Electric
+Sparkling Aria,Special,Water
+Sparkly Swirl,Special,Fairy
+Spectral Thief,Physical,Ghost
+Speed Swap,Status,Psychic
+Spider Web,Status,Bug
+Spike Cannon,Physical,Normal
+Spikes,Status,Ground
+Spiky Shield,Status,Grass
+Spirit Break,Physical,Fairy
+Spirit Shackle,Physical,Ghost
+Spit Up,Special,Normal
+Spite,Status,Ghost
+Splash,Status,Normal
+Splintered Stormshards,Physical,Rock
+Splishy Splash,Special,Water
+Spore,Status,Grass
+Spotlight,Status,Normal
+Stealth Rock,Status,Rock
+Steam Eruption,Special,Water
+Steamroller,Physical,Bug
+Steel Beam,Special,Steel
+Steel Roller,Physical,Steel
+Steel Wing,Physical,Steel
+Sticky Web,Status,Bug
+Stockpile,Status,Normal
+Stoked Sparksurfer,Special,Electric
+Stomp,Physical,Normal
+Stomping Tantrum,Physical,Ground
+Stone Edge,Physical,Rock
+Stored Power,Special,Psychic
+Storm Throw,Physical,Fighting
+Strange Steam,Special,Fairy
+Strength,Physical,Normal
+Strength Sap,Status,Grass
+String Shot,Status,Bug
+Struggle,Physical,Normal
+Struggle Bug,Special,Bug
+Stuff Cheeks,Status,Normal
+Stun Spore,Status,Grass
+Submission,Physical,Fighting
+Substitute,Status,Normal
+Subzero Slammer,Physical,Ice
+Sucker Punch,Physical,Dark
+Sunny Day,Status,Fire
+Sunsteel Strike,Physical,Steel
+Super Fang,Physical,Normal
+Superpower,Physical,Fighting
+Supersonic,Status,Normal
+Supersonic Skystrike,Physical,Flying
+Surf,Special,Water
+Surging Strikes,Physical,Water
+Swagger,Status,Normal
+Swallow,Status,Normal
+Sweet Kiss,Status,Fairy
+Sweet Scent,Status,Normal
+Swift,Special,Normal
+Switcheroo,Status,Dark
+Swords Dance,Status,Normal
+Synchronoise,Special,Psychic
+Synthesis,Status,Grass
+Tackle,Physical,Normal
+Tail Glow,Status,Bug
+Tail Slap,Physical,Normal
+Tail Whip,Status,Normal
+Tailwind,Status,Flying
+Take Down,Physical,Normal
+Tar Shot,Status,Rock
+Taunt,Status,Dark
+Tearful Look,Status,Normal
+Teatime,Status,Normal
+Techno Blast,Special,Normal
+Tectonic Rage,Physical,Ground
+Teeter Dance,Status,Normal
+Telekinesis,Status,Psychic
+Teleport,Status,Psychic
+Terrain Pulse,Special,Normal
+Thief,Physical,Dark
+Thousand Arrows,Physical,Ground
+Thousand Waves,Physical,Ground
+Thrash,Physical,Normal
+Throat Chop,Physical,Dark
+Thunder,Special,Electric
+Thunderbolt,Special,Electric
+Thunder Cage,Special,Electric
+Thunder Fang,Physical,Electric
+Thunderous Kick,Physical,Fighting
+Thunder Punch,Physical,Electric
+Thunder Shock,Special,Electric
+Thunder Wave,Status,Electric
+Tickle,Status,Normal
+Topsy-Turvy,Status,Dark
+Torment,Status,Dark
+Toxic,Status,Poison
+Toxic Spikes,Status,Poison
+Toxic Thread,Status,Poison
+Transform,Status,Normal
+Tri Attack,Special,Normal
+Trick,Status,Psychic
+Trick-or-Treat,Status,Ghost
+Trick Room,Status,Psychic
+Triple Axel,Physical,Ice
+Triple Kick,Physical,Fighting
+Trop Kick,Physical,Grass
+Trump Card,Special,Normal
+Twineedle,Physical,Bug
+Twinkle Tackle,Physical,Fairy
+Twister,Special,Dragon
+U-turn,Physical,Bug
+Uproar,Special,Normal
+Vacuum Wave,Special,Fighting
+V-create,Physical,Fire
+Veevee Volley,Physical,Normal
+Venom Drench,Status,Poison
+Venoshock,Special,Poison
+Vine Whip,Physical,Grass
+Vise Grip,Physical,Normal
+Vital Throw,Physical,Fighting
+Volt Switch,Special,Electric
+Volt Tackle,Physical,Electric
+Wake-Up Slap,Physical,Fighting
+Waterfall,Physical,Water
+Water Gun,Special,Water
+Water Pledge,Special,Water
+Water Pulse,Special,Water
+Water Shuriken,Special,Water
+Water Sport,Status,Water
+Water Spout,Special,Water
+Weather Ball,Special,Normal
+Whirlpool,Special,Water
+Whirlwind,Status,Normal
+Wicked Blow,Physical,Dark
+Wide Guard,Status,Rock
+Wild Charge,Physical,Electric
+Will-O-Wisp,Status,Fire
+Wing Attack,Physical,Flying
+Wish,Status,Normal
+Withdraw,Status,Water
+Wonder Room,Status,Psychic
+Wood Hammer,Physical,Grass
+Work Up,Status,Normal
+Worry Seed,Status,Grass
+Wrap,Physical,Normal
+Wring Out,Special,Normal
+X-Scissor,Physical,Bug
+Yawn,Status,Normal
+Zap Cannon,Special,Electric
+Zen Headbutt,Physical,Psychic
+Zing Zap,Physical,Electric
+Zippy Zap,Physical,Electric
