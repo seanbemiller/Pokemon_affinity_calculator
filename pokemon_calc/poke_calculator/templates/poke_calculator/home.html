@@ -1,0 +1,42 @@
+{% extends "poke_calculator/base.html"%}
+{% block content %}
+	<h1>Pokemon Affinity Calculator</h1>
+	<br>
+	<h2>Current Pokemon Team</h2>
+	<table class="table">
+		<thead>
+		  <tr>
+			<th scope="col">Name</th>
+			<th scope="col">Type1</th>
+			<th scope="col">Type2</th>
+			<th scope="col">Atribute1</th>
+			<th scope="col">Atribute2</th>
+		  </tr>
+		</thead>
+		{% for pokemon in pokemonTeam %}
+		<tbody>
+		  <tr>
+			<td>{{ pokemon.name }}</td>
+			<td>{{ pokemon.type1 }}</td>
+			<td>{{ pokemon.type2 }}</td>
+			<td>{{ pokemon.atr1 }}</td>
+			<td>{{ pokemon.atr2 }}</td>
+		  </tr>
+		</tbody>
+		{% endfor %}
+	  </table>
+	<!-- current team table ^^^ -->
+	<br>
+	<br>
+	<form method="post">
+		<h2>Select Pokemon</h2>
+		{% csrf_token %}
+		{{ form }}
+		<input type="submit" name="submit" value="Submit" />
+		<br>
+		<br>
+		<h2>Export Team</h2>
+		<input type="submit" name="export" value="Export Team" />
+	</form>
+
+{% endblock content %}

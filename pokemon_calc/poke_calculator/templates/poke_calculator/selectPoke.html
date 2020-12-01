@@ -1,0 +1,15 @@
+{% extends "poke_calculator/base.html"%}
+{% block content %}
+	<h1>Pokemon Info:</h1>
+	{% if pokeselected %}
+	{% for pokemon in pokemon_data %}
+	<p>{{ pokemon }}</p>
+	{% endfor %}
+	<h2>{{ selected }}</h2>
+	<form method="post">
+		{% csrf_token %}
+		{{ sform }}
+		<button type="submit" class="btn btn-primary">Add To Team</button>
+	</form>
+	{% endif %}
+{% endblock content %}
