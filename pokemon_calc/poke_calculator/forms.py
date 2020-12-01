@@ -43,8 +43,6 @@ class secondForm(forms.Form):
 		abilList.append((i[0], i[0]))
 	for i in data3:
 		abilList.append((i[0], i[0]))
-	# for row in c.execute('SELECT name FROM moves '): #populate moves list
-	# 	moveList.append((row[0], row[0]))
 	conn.commit()
 	conn.close()
 	natures = ["Hardy", "Lonely", "Brave", "Adamant", "Naughty", "Bold", "Docile", "Relaxed", "Impish", "Lax",
@@ -59,3 +57,34 @@ class secondForm(forms.Form):
 	Ability = forms.ChoiceField(choices=abilList)
 	Nature = forms.ChoiceField(choices=natList)
 	Item = forms.ChoiceField(choices=itemList)
+
+class thirdForm(forms.Form):
+	currentList = [('','')]
+	conn = sqlite3.connect('pokemon_data.sqlite')
+	c = conn.cursor()
+	for row in c.execute('SELECT pokemon FROM Team '): #populate item list
+		tmp = row[0].split(' ')
+		currentList.append((tmp[0], tmp[0]))#(row[0], row[0]))
+	conn.close()
+	toRemove = forms.ChoiceField(choices=currentList)
+
+class fourthForm(forms.Form):
+	currentList = [('','')]
+	conn = sqlite3.connect('pokemon_data.sqlite')
+	c = conn.cursor()
+	for row in c.execute('SELECT pokemon FROM Team '): #populate item list
+		tmp = row[0].split(' ')
+		currentList.append((tmp[0], tmp[0]))#(row[0], row[0]))
+	conn.close()
+	toSwap = forms.ChoiceField(choices=currentList)
+	replacement = forms.CharField(max_length=250, widget=forms.Textarea(attrs={'rows':7, 'cols':30}))
+
+class findForm(forms.Form):
+	currentList = [('','')]
+	typelist = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire",
+        "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"]
+	for i in typelist:
+		currentList.append((i, i))
+	Type1 = forms.ChoiceField(choices=currentList)
+	Type2 = forms.ChoiceField(choices=currentList, required=False)
+

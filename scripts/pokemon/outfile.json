@@ -878,4 +878,46 @@
 {"name": "Glastrier", "type1": "Ice", "hp": 100, "atk": 145, "def": 130, "spa": 65, "spd": 110, "spe": 30, "ability1": "Chilling Neigh", "moveset": "assurance, avalanche, blizzard, bodypress, bodyslam, bulldoze, closecombat, crunch, doubleedge, doublekick, endure, facade, gigaimpact, hail, heavyslam, highhorsepower, hyperbeam, icebeam, iciclecrash, iciclespear, icywind, irondefense, lashout, megahorn, mist, mudshot, outrage, payback, protect, rest, round, scaryface, sleeptalk, smartstrike, snarl, snore, stomp, stompingtantrum, substitute, superpower, swordsdance, tackle, tailwhip, takedown, taunt, thrash, throatchop, torment, uproar", "type2": null, "ability2": null, "ability3": null},
 {"name": "Spectrier", "type1": "Ghost", "hp": 100, "atk": 65, "def": 60, "spa": 145, "spd": 80, "spe": 130, "ability1": "Grim Neigh", "moveset": "agility, assurance, bodyslam, bulldoze, calmmind, confuseray, crunch, darkpulse, disable, doubleedge, doublekick, endure, facade, foulplay, gigaimpact, haze, hex, hyperbeam, lashout, mudshot, nastyplot, payback, phantomforce, protect, psychocut, rest, round, scaryface, shadowball, sleeptalk, snarl, snore, stomp, stompingtantrum, substitute, swift, tackle, tailwhip, takedown, taunt, thrash, uproar, willowisp", "type2": null, "ability2": null, "ability3": null},
 {"name": "Calyrex", "type1": "Psychic", "type2": "Grass", "hp": 100, "atk": 80, "def": 80, "spa": 80, "spd": 80, "spe": 80, "ability1": "Unnerve", "moveset": "agility, allyswitch, aromatherapy, batonpass, bulletseed, calmmind, confusion, drainingkiss, encore, endure, energyball, expandingforce, facade, futuresight, gigadrain, gigaimpact, grassknot, grassyterrain, growth, guardswap, healpulse, helpinghand, hyperbeam, imprison, leafstorm, leechseed, lifedew, lightscreen, magicalleaf, magicroom, megadrain, metronome, payday, pollenpuff, pound, powerswap, protect, psychic, psychicterrain, psyshock, reflect, rest, round, safeguard, seedbomb, skillswap, sleeptalk, snore, solarbeam, solarblade, speedswap, storedpower, substitute, sunnyday, swift, triattack, trick, trickroom, wonderroom, zenheadbutt", "ability2": null, "ability3": null}
+{"name": "Tapu Koko", "type1": "Electric", "type2":  "Fairy", "hp": 70, "atk": 115, "def": 85, "spa": 95, "spd": 75, "spe": 130, "ability1": "Electric Surge", "ability2": "Telepathy", "moveset": "acrobatics, aerialace, agility, assurance, bravebird, calmmind, charge, confide, dazzlinggleam, defog, discharge, doubleteam, echoedvoice, eerieimpulse, electricterrain, electroball, electroweb, endure, facade, fairywind, falseswipe, fly, frustration, gigaimpact, grassknot, hiddenpower, hyperbeam, hypervoice, irondefense, ironhead, lightscreen, meanlook, mirrormove, naturepower, naturesmadness, powerswap, protect, psychup, quickattack, raindance, reflect, rest, return, roar, roost, round, safeguard, screech, shockwave, skyattack, skydrop, sleeptalk, snore, spark, steelwing, storedpower, substitute, swagger, swift, taunt, telekinesis, thief, thunder, thunderbolt, thunderpunch, thundershock, thunderwave, torment, toxic, uturn, voltswitch, wildcharge, withdraw, workup", "ability3": null},
+{"name": "Tapu Fini",
+		"type1": "Water",
+		"type2":  "Fairy",
+		"hp": 70,
+		"atk": 75,
+		"def": 115,
+		"spa": 95,
+		"spd": 130,
+		"spe": 85,
+		"ability1": "Misty Surge",
+		"ability2": "Telepathy",
+		"moveset": "aquaring, blizzard, brine, calmmind, confide, dazzlinggleam, defog, disarmingvoice, dive, doubleteam, drainingkiss, echoedvoice, endure, facade, fling, frustration, gigaimpact, grassknot, gravity, guardswap, haze, healpulse, hiddenpower, hydropump, hyperbeam, icebeam, icepunch, icywind, irondefense, knockoff, lightscreen, magiccoat, magicroom, meanlook, mist, mistyterrain, moonblast, muddywater, naturepower, naturesmadness, playrough, protect, psychup, raindance, reflect, refresh, rest, return, round, safeguard, scald, shadowball, sleeptalk, smartstrike, snore, soak, storedpower, substitute, surf, swagger, taunt, telekinesis, torment, toxic, trick, waterfall, watergun, waterpulse, whirlpool, withdraw, wonderroom"
+		"ability3": null
+},
+{"name": "Tornadus-Therian",
+		"type1": "Flying",
+		"hp": 79,
+		"atk": 100,
+		"def": 80,
+		"spa": 110,
+		"spd": 90,
+		"spe": 121,
+		"ability1": "Regenerator",
+		"ability2": null,
+		"moveset": "acrobatics, aerialace, agility, aircutter, airslash, assurance, astonish, attract, bite, bodyslam, brickbreak, brutalswing, bulkup, confide, crunch, darkpulse, defog, doubleteam, embargo, endure, extrasensory, facade, fling, fly, focusblast, foulplay, frustration, gigaimpact, grassknot, gust, hammerarm, heatwave, hiddenpower, hurricane, hyperbeam, icywind, incinerate, irontail, knockoff, lashout, leer, nastyplot, payback, protect, psychic, raindance, rest, return, revenge, rocksmash, roleplay, round, scaryface, secretpower, skydrop, sleeptalk, sludgebomb, sludgewave, smackdown, snore, strength, substitute, superpower, swagger, tailwind, taunt, thief, thrash, torment, toxic, uproar, uturn, weatherball"
+		"ability3": null
+},
+{"name": "Landorus-Therian",
+		"type1": "Ground",
+		"type2":  "Flying",
+		"hp": 89,
+		"atk": 145,
+		"def": 90,
+		"spa": 105,
+		"spd": 80,
+		"spe": 91,
+		"ability1": "Intimidate",
+		"ability2": null,
+		"moveset": "attract, block, bodyslam, brickbreak, brutalswing, bulkup, bulldoze, calmmind, confide, defog, dig, doubleteam, earthpower, earthquake, endure, explosion, extrasensory, facade, fissure, fling, fly, focusblast, frustration, gigaimpact, grassknot, gravity, hammerarm, hiddenpower, hyperbeam, imprison, irontail, knockoff, leer, mudshot, outrage, payback, protect, psychic, punishment, rest, return, rockpolish, rockslide, rocksmash, rockthrow, rocktomb, roleplay, round, sandstorm, sandtomb, scaryface, secretpower, selfdestruct, sleeptalk, sludgebomb, sludgewave, smackdown, snore, stealthrock, stoneedge, strength, substitute, superpower, swagger, swordsdance, toxic, uturn, weatherball"
+		"ability3": null
+}
 ]

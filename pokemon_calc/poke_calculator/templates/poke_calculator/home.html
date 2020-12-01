@@ -34,11 +34,102 @@
 	<!-- current team table ^^^ -->
 	<br>
 	<br>
+	<h2>Average Team Stats</h2>
+	<table class="table">
+		<thead>
+		  <tr>
+			<th scope="col">Hp</th>
+			<th scope="col">Atk</th>
+			<th scope="col">Def</th>
+			<th scope="col">Spa</th>
+			<th scope="col">Spd</th>
+			<th scope="col">Spe</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>{{ stats.hp }}</td>
+			<td>{{ stats.atk }}</td>
+			<td>{{ stats.def }}</td>
+			<td>{{ stats.spa }}</td>
+			<td>{{ stats.spd }}</td>
+			<td>{{ stats.spe }}</td>
+		  </tr>
+		</tbody>
+	  </table>
+	<br>
+	<br>
+	<h2>Average Team Stats</h2>
+	<table class="table">
+		<thead>
+		  <tr>
+			<th scope="col">nor</th>
+			<th scope="col">fig</th>
+			<th scope="col">fly</th>
+			<th scope="col">poi</th>
+			<th scope="col">grd</th>
+			<th scope="col">rck</th>
+			<th scope="col">bug</th>
+			<th scope="col">ght</th>
+			<th scope="col">stl</th>
+			<th scope="col">fir</th>
+			<th scope="col">wat</th>
+			<th scope="col">grs</th>
+			<th scope="col">elc</th>
+			<th scope="col">psy</th>
+			<th scope="col">ice</th>
+			<th scope="col">drg</th>
+			<th scope="col">drk</th>
+			<th scope="col">fry</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>{{ typing.nor }}</td>
+			<td>{{ typing.fig }}</td>
+			<td>{{ typing.fly }}</td>
+			<td>{{ typing.poi }}</td>
+			<td>{{ typing.grd }}</td>
+			<td>{{ typing.rck }}</td>
+			<td>{{ typing.bug }}</td>
+			<td>{{ typing.ght }}</td>
+			<td>{{ typing.stl }}</td>
+			<td>{{ typing.fir }}</td>
+			<td>{{ typing.wat }}</td>
+			<td>{{ typing.grs }}</td>
+			<td>{{ typing.elc }}</td>
+			<td>{{ typing.psy }}</td>
+			<td>{{ typing.ice }}</td>
+			<td>{{ typing.drg }}</td>
+			<td>{{ typing.drk }}</td>
+			<td>{{ typing.fry }}</td>
+		  </tr>
+		</tbody>
+	  </table>
+	<br>
+	<br>
 	<form method="post">
 		<h2>Select Pokemon</h2>
 		{% csrf_token %}
 		{{ form }}
 		<input type="submit" name="submit" value="Submit" />
+		<br>
+		<br>
+		<h2>Remove Pokemon</h2>
+		<input type="submit" name="remove" value="Remove Pokemon" />
+		<br>
+		<br>
+		<h2>Swap Pokemon</h2>
+		<input type="submit" name="swap" value="Swap Pokemon" />
+		<br>
+		<br>
+		<h2>Build Team</h2>
+		<p>Current Team must only have ONE Pokemon</p>
+		<input type="submit" name="buildPOKETEAM" value="Build Team" />
+		<br>
+		<br>
+		<h2>Find By Type</h2>
+		<input type="submit" name="find" value="Find By Type" />
 		<br>
 		<br>
 		<h2>Export Team</h2>

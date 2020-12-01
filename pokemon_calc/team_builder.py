@@ -1,7 +1,7 @@
 import defense_type_chart
 import random
 
-def buildTeam():
+def buildTeam(type1, type2):
     # We are assuming that they only have one pokemon they
     # are building off of
     # first we get the pokemon that is in the first slot
@@ -72,8 +72,8 @@ def buildTeam():
         ["Kartana", "grass", "steel", "Kartana @ Choice Scarf\nAbility: Beast Boost\n"
          "Jolly Nature\n- Leaf Blade\n- Smart Strike\n- Sacred Sword\n- Knock Off"],
 
-        ["Landorus-Therian", "ground", "flying", "Landorus-Therian @ Choice Scarf\nAbility: Intimidate\n"
-         "Jolly Nature\n- Earthquake\n- U-turn\n- Stone Edge\n- Defog"],
+        # ["Landorus-Therian", "ground", "flying", "Landorus-Therian @ Choice Scarf\nAbility: Intimidate\n"
+        #  "Jolly Nature\n- Earthquake\n- U-turn\n- Stone Edge\n- Defog"],
 
         ["Latios", "psychic", "dragon", "Latios @ Choice Specs\nAbility: Levitate\n"
          "Timid Nature\n- Draco Meteor\n- Psychic\n- Mystical Fire\n- Trick"],
@@ -111,14 +111,14 @@ def buildTeam():
         ["Swampert", "water", "ground", "Swampert @ Leftovers\nAbility: Damp\n"
          "Relaxed Nature\n- Stealth Rock\n- Flip Turn\n- Earthquake\n- Toxic"],
 
-        ["Tapu Fini", "water", "fairy", "Tapu Fini @ Leftovers\nAbility: Misty Surge\n"
-         "Bold Nature\n- Calm Mind\n- Taunt\n- Draining Kiss\n- Surf"],
+        # ["Tapu Fini", "water", "fairy", "Tapu Fini @ Leftovers\nAbility: Misty Surge\n"
+        #  "Bold Nature\n- Calm Mind\n- Taunt\n- Draining Kiss\n- Surf"],
 
-        ["Tapu Koko", "electric", "fairy", "Tapu Koko @ Heavy-Duty Boots\nAbility: Electric Surge\n"
-         "Timid Nature\n- Thunderbolt\n- Dazzling Gleam\n- U-turn\n- Roost" ],
+        # ["Tapu Koko", "electric", "fairy", "Tapu Koko @ Heavy-Duty Boots\nAbility: Electric Surge\n"
+        #  "Timid Nature\n- Thunderbolt\n- Dazzling Gleam\n- U-turn\n- Roost" ],
 
-        ["Tornadus-Therian", "flying", "", "Tornadus-Therian @ Heavy-Duty Boots\nAbility: Regenerator\n"
-         "Timid Nature\n- Hurricane\n- Knock Off\n- U-turn\n- Defog"],
+        # ["Tornadus-Therian", "flying", "", "Tornadus-Therian @ Heavy-Duty Boots\nAbility: Regenerator\n"
+        #  "Timid Nature\n- Hurricane\n- Knock Off\n- U-turn\n- Defog"],
 
         ["Toxapex", "water", "poison", "Toxapex @ Rocky Helmet\nAbility: Regenerator\n"
          "Bold Nature\n- Scald\n- Recover\n- Haze\n- Knock Off"],
@@ -137,8 +137,8 @@ def buildTeam():
 
     ]
 
-    type1 = "flying"
-    type2 = "ground"
+    # type1 = "flying"
+    # type2 = "ground"
     weaknesses = defense_type_chart.def_type_calc(type1, type2)
 
     currentTeam = []
@@ -153,7 +153,7 @@ def buildTeam():
 
         for j in range(0,len(samplePokemon)):
             # j will look through all of the sample pokemon the find the one with the best synergy
-            if samplePokemon[j][0] in currentTeam:
+            if samplePokemon[j][3] in currentTeam:
                 continue
             typea = samplePokemon[j][1]
             typeb = samplePokemon[j][2]
@@ -188,15 +188,15 @@ def buildTeam():
                     currentBestLocation = j
                     currentBestWeaknesses = sampleWeakness
 
-        print(currentBestPokemon)
+        # print(currentBestPokemon)
         for i in range(0,17):
             weaknesses[i] += currentBestWeaknesses[i]
-        pokemon = samplePokemon[currentBestLocation][0]
+        pokemon = samplePokemon[currentBestLocation][3]
         currentTeam.append(pokemon)
-        print(weaknesses)
+        # print(weaknesses)
 
-    print(currentTeam)
-buildTeam()
+    return(currentTeam)
+# buildTeam()
 
 
 # The following are possible team members

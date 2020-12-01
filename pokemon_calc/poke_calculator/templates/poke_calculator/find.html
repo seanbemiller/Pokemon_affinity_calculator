@@ -1,0 +1,9 @@
+{% extends "poke_calculator/base.html"%}
+{% block content %}
+<form method="post">
+	<h2>Select Types</h2>
+	{% csrf_token %}
+	{{ fform }}
+	<input type="submit" name="submit" value="Submit" />
+</form>
+{% endblock content %}

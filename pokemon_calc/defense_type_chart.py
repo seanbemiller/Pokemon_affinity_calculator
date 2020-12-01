@@ -196,7 +196,7 @@ def def_type_calc(type1, type2):
         typechart[fighting] += 1
         typechart[dark] += 1
 
-    if type2 is None and type2 != "":
+    if type2 is not None and type2 != "":
         if type2 == "normal":
             typechart[fighting] -= 1
 
@@ -236,7 +236,7 @@ def def_type_calc(type1, type2):
             typechart[poison] += 1
             typechart[rock] += 1
 
-        if type1 == "rock":
+        if type2 == "rock":
             typechart[fighting] -= 1
             typechart[grass] -= 1
             typechart[ground] -= 1
