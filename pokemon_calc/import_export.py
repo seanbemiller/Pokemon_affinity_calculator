@@ -1,16 +1,16 @@
-def exporter():
+def exporter(name, ability, item, nature, move1, move2, move3, move4):
     # first we need to get the info from the pokemon
     # ideally we get a list of each pokemon and we repeat the
     # process 6 times to correctly format all of them
     # ex:
-    name = "bulbasaur"
-    ability = "overgrowth"
-    item = "life orb"
-    nature = "jolly"
-    move1 = "fire punch"
-    move2 = "thunder punch"
-    move3 = "ice punch"
-    move4 = "earthquake"
+    # name = "bulbasaur"
+    # ability = "overgrowth"
+    # item = "life orb"
+    # nature = "jolly"
+    # move1 = "fire punch"
+    # move2 = "thunder punch"
+    # move3 = "ice punch"
+    # move4 = "earthquake"
 
     exportedString = ""
     exportedString += name + " @ " + item + "\n"
@@ -21,7 +21,7 @@ def exporter():
     exportedString += "- " + move3 + '\n'
     exportedString += "- " + move4 + '\n'
 
-    print(exportedString)
+    return exportedString
 
 def importer(Pokemon):
     # fills out all of the info that is left blank after being given a string formatted as:
@@ -78,8 +78,7 @@ def importer(Pokemon):
     for i in info[6][2:len(info[6])]:
         move4 += i
 
-    # print(name + " " + item + " " + nature + " " + ability + " "
-    #       + move1 + " " + move2 + " " + move3 + " " + move4)
+    return (name, item, nature, ability, move1, move2, move3, move4)
 
 
 

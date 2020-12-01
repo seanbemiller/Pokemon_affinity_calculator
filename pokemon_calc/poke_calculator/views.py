@@ -5,7 +5,7 @@ from .forms import selectForm, secondForm
 from django.contrib.messages import get_messages
 from django.contrib import messages
 import sqlite3
-
+import import_export as inout
 
 #example pokemon dictionary 
 pokemon = [
@@ -25,24 +25,33 @@ pokemon = [
 	}
 ]
 
-#example pokemon export string
-export_example = 'Kyurem-Black @ Leftovers\nAbility: Teravolt\nEVs: 252 Atk / 4 SpA / 252 Spe\nNaive Nature\n- Dragon Dance\n- Icicle Spear\n- Earth Power\n- Fusion Bolt'
-export_string = [export_example, export_example, export_example, export_example, export_example, export_example ]
-
 # Create your views here.
 def home(request): 
+	Team = []
+	newTeam = []
 	conn = sqlite3.connect('pokemon_data.sqlite')
 	c = conn.cursor()
-	# GET POKEMON TEAM FROM DB HERE
-	# for row in c.execute('SELECT name, type1 FROM pokemon '):
-	# 	print(row)
+	for row in c.execute('SELECT * FROM Team '): #populate team list
+		Team.append(row)
+	for pokemon in Team:
+		tup = inout.importer(pokemon[0])
+		newTeam.append({
+		'name': tup[0],
+		'item': tup[1],
+		'nature': tup[2],
+		'ability': tup[3],
+		'move1': tup[4],
+		'move2': tup[5],
+		'move3': tup[6],
+		'move4': tup[7]
+		})
 	conn.close()
 	if(request.POST):
 		form = selectForm(request.POST)
 		context = {
 		'pokeselected': True,
 		'form': form,
-		'pokemonTeam': pokemon,
+		'pokemonTeam': newTeam,
 		'pokedex': pokemon
 		}
 		if form.is_valid() == False:
@@ -53,7 +62,15 @@ def home(request):
 			messages.add_message(request, messages.INFO, form.cleaned_data['pokemon'])
 			return redirect('Pokemon-Calculator-Select')
 		elif 'export' in request.POST:
+			#example pokemon export string
+			# export_example = 'Kyurem-Black @ Leftovers\nAbility: Teravolt\nEVs: 252 Atk / 4 SpA / 252 Spe\nNaive Nature\n- Dragon Dance\n- Icicle Spear\n- Earth Power\n- Fusion Bolt'
+			export_string = []
 			# CREATE LIST OF STRINGS TO BE EXPORTED HERE
+			conn = sqlite3.connect('pokemon_data.sqlite')
+			c = conn.cursor()
+			for row in c.execute('SELECT * FROM Team '): #populate team list
+				export_string.append(row[0])
+
 			for string in export_string:
 				messages.add_message(request, messages.INFO, string)
 			return redirect('Pokemon-Calculator-Export')
@@ -63,7 +80,7 @@ def home(request):
 		context = {
 		'pokeselected': False,
 		'form': form,
-		'pokemonTeam': pokemon,
+		'pokemonTeam': newTeam,
 		'pokedex': pokemon
 		}
 	return render(request,'poke_calculator/home.html', context)
@@ -87,9 +104,15 @@ def selectPoke(request):
 			move3 = sform.cleaned_data['Move3']
 			move4 = sform.cleaned_data['Move4']
 			item = sform.cleaned_data['Item']
-
-			print(chosenPoke, move1, move2, move3, move4, item)
-			# add pokemon + moves to team db here -=-=--=-=-==-=-=-=-=-=-=
+			ability = sform.cleaned_data['Ability']
+			nature = sform.cleaned_data['Nature']
+			Poke_str = inout.exporter(chosenPoke.__str__(), ability, item, nature, move1, move2, move3, move4)
+			conn = sqlite3.connect('pokemon_data.sqlite')
+			c = conn.cursor()
+			c.execute('INSERT INTO Team VALUES (?)', (Poke_str,))
+			pokemon_data = c.fetchone() #get pokemon data as tuple 
+			conn.commit()
+			conn.close()
 			return redirect('Pokemon-Calculator-Home')
 		else:
 			print('NOT VALID')
